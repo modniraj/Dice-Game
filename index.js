@@ -1,3 +1,5 @@
+function Game(){
+  
 var randomNumber1 = Math.floor((Math.random()*5));
 var randomNumber2 = Math.floor((Math.random()*6));
 var dice=["images/dice1.png","images/dice2.png","images/dice3.png","images/dice4.png","images/dice5.png","images/dice6.png"]
@@ -20,3 +22,10 @@ else
   // document.querySelector("h1").innerHTML = "Draw!";
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+}
+
+document.getElementById("calculate1").onclick = function() {
+  Game();
+
+};
